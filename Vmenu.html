@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+     <head>
+	 
+	     <title>	 
+		 </title>
+		 <style>
+		 
+		     .dropdown {
+			     height:30px;
+				 
+				 margin-left:-0.6%;
+				 margin-top:4%;
+				 
+			 }
+			 .dropdown ul{
+			     padding:0px;
+			 } 
+			 .dropdown ul li {
+			     
+				 background-color:white;
+				 color:black;
+				 width:195.1px;
+				 list-style:none;
+				 line-height:50px;
+				 font-size:22px;
+				 height:61px;
+				 text-align:center;
+				 opacity:0.5;
+				 
+			 }
+			 .dropdown ul li ul li {
+			     border-bottom:0.5px solid black;
+			     position:relative;
+			     left:195px;
+				 top:-50px;
+			 }
+			 .dropdown ul li ul {
+			     
+			     display:none;
+				 
+			 }
+			 .dropdown ul li:hover > ul {
+			     display:block;
+				 
+			 }
+			 .dropdown ul li:hover {
+			     background-color:gray;
+				 opacity:0.9;
+			 }
+			ul a{
+			     text-decoration:none;
+				 color:black;
+			 }
+		 </style>
+	 </head>
+	 <body>
+	 <div class="dropdown">
+	     <ul>
+		     
+			 <li></li>
+		      <a href="disconnectLb.php"><li>D&eacute;connecter</li></a>
+		     <li>
+			     Ajouter &raquo;
+				     <ul>
+					     <a href="ajouterlivre.php"><li>Livre</li></a>
+						 <a href="ajoutergenre.php"><li>Genre</li></a>
+						 <a href="ajouterlangue.php"><li>Langue</li></a>
+						 <a href="insc.php"><li>Locataire</li></a>
+					 </ul>
+			 </li>
+			 <li>
+			     Supprimer &raquo;
+				     <ul>
+					     <a href="supprimerlivre.php"><li>Livre</li></a>
+						 <a href="supprimergenre.php"><li>Genre</li></a>
+						 <a href="supprimerlangue.php"><li>Langue</li></a>
+						 <a href="supprimerlocataire.php"><li>Locataire</li></a>
+					 </ul>
+			 </li>
+			 <li>
+			     Modifier &raquo;
+			         <ul>
+					     <a href="modifierlivre.php"><li>Livre</li></a>
+						 <a href="modifiergenre.php"><li>Genre</li></a>
+						 <a href="modifierlangue.php"><li>Langue</li></a> 
+						 <a href="modifierlocataire.php"><li>Locataire</li></a>
+					 </ul>
+			 </li>
+			 <li>
+			     Afficher &raquo;
+			         <ul>
+						 <a href="lesLocations.php"><li>Les locations</li></a>
+					 </ul>
+			 </li>
+			 <li></li>
+			 <li></li>
+			 
+			 
+			
+		 <ul>
+	 </div>
+	 </body>
+</html>
